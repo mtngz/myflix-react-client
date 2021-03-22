@@ -2,20 +2,16 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import axios from 'axios';
 
-import './profile-view.scss';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Card from 'react-bootstrap/Card';
-import CardDeck from 'react-bootstrap/CardDeck';
 import { Tabs, Tab } from 'react-bootstrap';
 import Row from "react-bootstrap/Row";
 
 export class ProfileView extends React.Component {
 	constructor() {
 		super();
-		// eslint-disable-next-line no-unused-expressions
-		//(this.Username = null), (this.Password = null), (this.Email = null), (this.Birthday = null);
 		this.state = {
 			Username: null,
 			Password: null,

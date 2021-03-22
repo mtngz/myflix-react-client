@@ -5,8 +5,6 @@ import PropTypes from 'prop-types';
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import ListGroup from "react-bootstrap/ListGroup";
 
 export class DirectorView extends React.Component {
 

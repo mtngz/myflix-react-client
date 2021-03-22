@@ -14,21 +14,12 @@ import {setMovies, setUser} from "../../actions/actions";
 import MoviesList from "../movies-list/movies-list";
 import {RegistrationView} from "../registration-view/registration-view";
 import {LoginView} from "../login-view/login-view";
-import {MovieCard} from "../movie-card/movie-card";
 import {MovieView} from "../movie-view/movie-view";
 import {DirectorView} from "../director-view/director-view";
 import {PhaseView} from "../phase-view/phase-view";
 import {ProfileView} from "../profile-view/profile-view";
 
 export class MainView extends React.Component {
-  constructor() {
-    // Call the superclass constructor
-    // so React can initialize it
-    super();
-
-    // no initial state as we use Redux
-
-  }
 
   // One of the "hooks" available in a React Component
   componentDidMount() {
@@ -132,34 +123,6 @@ export class MainView extends React.Component {
 					}} />
         </Container>
       </Router>
-
-
-    /*
-    <div className="main-view">
-      <Container fluid="md">
-      <Navbar collapseOnSelect expand="lg" bg="primary" variant="dark">
-              <Navbar.Brand href="#home">MARVELIX</Navbar.Brand>
-              <Navbar.Toggle aria-controls="basic-navbar-nav" />
-              <Navbar.Collapse id="responsive-navbar-nav">
-                <Nav className="mr-auto">
-                  <Nav.Link href="">Profile</Nav.Link>
-                  <Button onClick={this.onLogOut} variant="danger" type="submit" className="button logout">Log Out</Button>
-                </Nav>
-              </Navbar.Collapse>
-            </Navbar>
-        <Row className="ml-0 mr-0">
-          {selectedMovie
-          ? <MovieView movie={selectedMovie}/>
-          : movies.map(movie => (
-            <MovieCard key={movie._id} movie={movie} onClick={movie => this.onMovieClick(movie)}/>
-          ))
-          }
-        </Row>
-      </Container>
-    </div>
-    */
-
-
     );
   }
 }
