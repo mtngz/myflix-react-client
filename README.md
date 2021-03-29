@@ -6,7 +6,7 @@ This project is a React application that allows users to get information about m
 
 # Demo
 
-![Screen recording of project demo]()
+![Screen recording of project demo](public/react.gif)
 
 # Features
 
