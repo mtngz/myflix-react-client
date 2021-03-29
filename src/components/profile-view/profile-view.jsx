@@ -167,6 +167,7 @@ export class ProfileView extends React.Component {
 
 								
 									{Favorites.length > 0 &&
+										// eslint-disable-next-line array-callback-return
 										movies.map((movie) => {
 											if (movie._id === Favorites.find((favMovie) => favMovie === movie._id)) {
 												return (
