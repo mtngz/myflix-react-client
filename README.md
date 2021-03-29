@@ -2,7 +2,7 @@
 
 This project is a React application that allows users to get information about movies, genres, and directors. Users can also save movies in their list of favorites and edit details of their profile. This application uses an existing server-side REST API ([https://github.com/mtngz/movie_api](https://github.com/mtngz/movie_api)) and MongoDB database.
 
-### The application is deployed here [https://mtngz.github.io/myflix-react-client/](https://mtngz.github.io/myflix-react-client/).
+### The application is deployed here [https://mern-marvelix.netlify.app/](https://mern-marvelix.netlify.app/).
 
 # Demo
 
